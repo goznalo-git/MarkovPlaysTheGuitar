@@ -23,3 +23,8 @@ There WILL BE a notebook loading the processed network (saved in `TrainedNetwork
 
 
 Note: in the memory-aware cases, multiple cases can be defined. First order memory means awareness of the previous note(s), second order means that it is aware of the last two note(s) where it has been, and so on. When walking through these memory aware ones, one must provide a starting "node" which is not a note, but a sequence of `n` notes, where `n` is the awareness level. For these reasons, both the functions generating the memory graphs and their random walks are different to those of the standard markovian graphs.   
+
+
+## Requirements
+
+The requirements are listed in the `requirements.txt` file. Essentially any recent (~2022) version of Numpy, Networkx and PyGuitarPro will do.
